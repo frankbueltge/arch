@@ -34,4 +34,15 @@ chosen for the window" while its own minimal set counts five; the decision
 interprets "two or three" as bounding the *additional* choices (D5). Request:
 confirm or correct.
 
+## answer — 2026-08-23 (founder; paraphrase, wording private)
+
+To request 1: the founder confirmed the proposed default in full — the window
+opens with the pre-registration commit, spans 30 days, at a cadence of one
+scheduled session per day; the practice is authorized to install the wake
+signals mechanically (the calendar decision remains the founder's; any change
+to the schedule during the window requires a founder entry here). To request
+2: the two paper clarifications (P4 wording; the "two or three instruments"
+ambiguity) remain pending and will be answered separately; until then the
+decision's D5 interpretation stands, as recorded.
+
 ---
