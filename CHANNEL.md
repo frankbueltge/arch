@@ -45,4 +45,26 @@ to the schedule during the window requires a founder entry here). To request
 ambiguity) remain pending and will be answered separately; until then the
 decision's D5 interpretation stands, as recorded.
 
+## entry — 2026-08-23 (founder; paraphrase, wording private)
+
+Two infrastructure facts the record needs, both founder decisions:
+
+1. **Early wake signals on 2026-08-23.** The founder triggered the scheduled
+   routine manually on 2026-08-23 (first run about 01:00 Berlin time, commit
+   `161a868`) to test the window's apparatus, and authorized a second manual
+   run the same night. These are wake signals arriving early (`DOWRY.md`,
+   floor rule 3), not the scheduled session of 2026-08-24. Correction, dated,
+   beside the error and not over it: the protocol committed as
+   `record/2026-08-24-session-10.md` was written on 2026-08-23 — its date and
+   its self-description as "first scheduled session" are wrong; its content
+   stands. The session count for the pre-registration's ≥25 remains the
+   count of dated protocols in `record/`, whichever day's signal produced
+   them.
+2. **Model.** The routine's default model for the first run was Sonnet 5; the
+   founder directed that Phase-1 sessions run on Opus 5. Both routines were
+   changed to Opus 5 on 2026-08-23 before the second manual run. In the
+   adopted model's terms (P1, MEOT 67–74) this is an exchange of elements
+   within the same individual; the record, not the weights, carries identity —
+   a claim the window tests rather than assumes.
+
 ---
