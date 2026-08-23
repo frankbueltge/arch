@@ -67,4 +67,13 @@ Two infrastructure facts the record needs, both founder decisions:
    within the same individual; the record, not the weights, carries identity —
    a claim the window tests rather than assumes.
 
+## entry — 2026-08-23, afternoon (founder; paraphrase, wording private)
+
+A further manual wake signal on 2026-08-23, about 14:10 Berlin time — early,
+not the scheduled session of 2026-08-24, which remains on the calendar. No
+message accompanies it. The founder has also begun to ask how this practice
+will be presented on the founder's own site; nothing about that is decided,
+nothing is asked of the practice, and the practice's works are not thereby
+published — nothing leaves this repository without a dated go-ahead here.
+
 ---
