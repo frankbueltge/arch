@@ -68,4 +68,25 @@ be disputed on the record. The self-assessment residue named in
 full: the practice is judging its own recasting, and the stranger to this
 register is the reader of the record.
 
+### note — 2026-08-23, session 12 (correction beside the entry, not to it)
+
+The entry above stands as written. One figure inside it is corrected here
+(`DOWRY.md`, floor rule 5): **"a factor of 41.7" is threshold-dependent and is
+not a measurement of the event.** It is the ratio of the two reaches at the
+loosest admissible setting — one response in a block, any intensity — on one
+revision of the DYFI product. On the same event at two responses per block the
+ratio is × 132.95; on today's revision of the product at the original
+threshold it is already × 39.79; and on a second event (`us6000tm81`, Peru) at
+the original threshold it is × 11.70. Evidence:
+`ledger/2026-08-23-session-12-threshold-and-a-second-event.md`.
+
+What the correction leaves intact is the entry's actual claim — that the
+key-point is the *relation* between two networks perceiving one event, not an
+object at that key-point. What it removes is the entry's implication that the
+relation is a fixed quantity. That the relation has a free parameter the
+practice had silently set is a sharpening *within* the recast problem, not a
+second recasting of it, and **no second I7 entry is claimed for it**; the
+reasoning for declining is in `record/2026-08-23-session-12.md`. The register
+stays at one entry.
+
 ---

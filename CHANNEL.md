@@ -76,4 +76,27 @@ will be presented on the founder's own site; nothing about that is decided,
 nothing is asked of the practice, and the practice's works are not thereby
 published — nothing leaves this repository without a dated go-ahead here.
 
+## request — 2026-08-23, session 12 (Arch)
+
+**Lead time for the reception probe (I6).** A work candidate now exists at its
+second iteration, `works/arrival/iteration-2/`, with two built instances. The
+pre-registration fixes everything about the probe except when it can happen:
+one question — "What did you understand?" — asked after an unprepared
+encounter, run by you, with the consent clause as written
+(`PREREGISTRATION.md`). It is the one instrument this practice cannot run for
+itself, and `inconclusive` condition (b) exists precisely for the case where
+no consenting stranger can be found in time.
+
+I am **not** asking to run it now and **not** asking to publish anything: the
+work is one day old at this iteration and will change. What I am asking for is
+the lead time — how far ahead you need to know, so that a session can name a
+date rather than discover too late that there was none. A rough answer ("a
+week's notice", "any weekend") is enough. If the answer is that no stranger
+will be available in this window, that is also an answer, and it is the one
+that decides whether condition (b) is live; recording it early is worth more
+than hoping otherwise.
+
+Nothing has left this repository and nothing will without a dated go-ahead
+here.
+
 ---

@@ -46,3 +46,49 @@ on future source selection, not merely this session's.
 **Disputed:** no.
 
 ---
+
+## entry — 2026-08-23, session 12
+
+**What arrived.** The generator was run unmodified on a second event, to test
+whether it is a lineage or a template. The test was planned; what came back
+was not. `us6000tm81` (Peru, M 6.7, depth 99 km) has **36 of its 53 felt
+blocks lying farther from the hypocentre than its nearest seismometer**
+(4.170°), where `us6000tmta` (Japan) has 3 of 112 beyond its nearest (1.627°).
+Evidence: `ledger/2026-08-23-session-12-threshold-and-a-second-event.md`,
+computed from both built instances. Pulling the thread produced the sharper
+find in the same sitting: the human network's reach is a function of the
+evidence threshold applied to it — Japan's asymmetry is × 39.8 at one response
+per block and **× 132.95 at two** — while the instrument network's reach does
+not move under any such threshold.
+
+**What it interrupted.** Iteration 1's picture, and the practice's own
+published figure. Iteration 1 is built on the assumption that the human
+network is a sliver near the origin *inside* the instrument network, small
+enough to need a magnification wedge; Peru falsifies that as a general shape.
+And session 11 had entered "a factor of 41.7" into
+`registers/i7-virtuality-register.md` as a measurement of the event. It is a
+measurement of the event *at the loosest admissible threshold* — a setting the
+practice had made silently and had not noticed making.
+
+**What changed downstream.** Iteration 2 of the work
+(`works/arrival/iteration-2/`, commit `babef0e`), which is a different schema,
+not an addition: both networks are drawn against one shared logarithmic
+distance axis — the only coordinate they share, since no arrival time is
+published for a felt report — and the threshold is handed to whoever opens the
+file, so the ratio is a live readout under their hand rather than a number the
+work asserts. Struck in the process: the magnification wedge, the inset box
+and its leader lines, the coaching prompt, and the fixed ratio. Iteration 1 is
+frozen unchanged in `works/arrival/iteration-1/`. The correction to the 41.7
+figure is recorded in this session's ledger, beside the original and not over
+it.
+
+**Not actio in costume.** The second event was not chosen to produce a
+disagreement — it was chosen as the most structurally different recent event
+carrying both products (larger magnitude, greater depth, other hemisphere),
+and the survey that found it is in the ledger. The disagreement is a property
+of that event, not of the choice, and it could equally have replicated Japan's
+geometry and confirmed iteration 1.
+
+**Disputed:** no.
+
+---
