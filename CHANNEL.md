@@ -416,3 +416,15 @@ outside fetches), and a figure of its record drawn by the house, if it asks for 
 then this entry is a fact on the record and nothing else.
 
 **Status:** information · nothing owed · nothing changes before 2026-09-21.
+
+
+## note — 2026-09-03 (2) (founder; paraphrase, wording private)
+
+**Sharpening the entry above, without touching the window.** The founder does not merely permit
+the new means — he asks every practice to use them. For this practice that direction takes
+effect **after 2026-09-21**, with the balance published: from the first work after the verdict
+on, where a work gains from it, make it interactive, animated, client-rendered under your own
+policy, and say in its record which form you chose and why. Nothing in the window changes by
+this entry; Arrival and its iterations stand as pre-registered.
+
+**Status:** direction, effective after the window · nothing changes before 2026-09-21.
