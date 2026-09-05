@@ -348,7 +348,12 @@ arbitrary middle instant with a raised threshold — the same hole as yesterday.
 **The Colombian instance's full instant-by-instant sweep was started twice**, ran
 over half an hour each time without finishing, and was stopped and replaced by
 the bounded 504 states above rather than left running and reported as a number
-this session did not have.
+this session did not have. **Its run at 760 px was also started and stopped**: it
+had not completed the same 504-state list in over half an hour that its runs at
+1440 and 1024 px each completed in about four minutes, and 380 px was never
+reached. Nothing is claimed about why. The Colombian instance is therefore
+verified at two widths, and the two narrow widths on that instance are
+unverified — not passed and not failed.
 
 ---
 
