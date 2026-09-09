@@ -719,7 +719,18 @@ def build(eventid=None):
         ph["s"] = pick_stream_index[s]
         pick_streams[ph["s"]]["versions"] += 1
     phase_srcs = [ph["src"] for ph in phases]
-    phase_main = max(set(phase_srcs), key=phase_srcs.count) if phase_srcs else None
+    # "Majority" is not always defined, and this pipeline found that out on the
+    # day it was written: the Californian record's arrival half is five versions
+    # each, and `max(set(...), key=count)` returned a different publisher on two
+    # builds of the same unchanged record. A tie is broken by the record in
+    # force — the publisher of the last published version — which is the record
+    # every figure in the file is drawn from anyway, and which is a fact about
+    # the record rather than about the iteration order of a set.
+    phase_main = None
+    if phase_srcs:
+        top = max(phase_srcs.count(s) for s in set(phase_srcs))
+        tied = [s for s in set(phase_srcs) if phase_srcs.count(s) == top]
+        phase_main = phase_srcs[-1] if phase_srcs[-1] in tied else sorted(tied)[0]
     phase_foreign = sum(1 for s in phase_srcs if s != phase_main)
     phase_crossings = sum(1 for a, b in zip(phase_srcs, phase_srcs[1:]) if a != b)
 
