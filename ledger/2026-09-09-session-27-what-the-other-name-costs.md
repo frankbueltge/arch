@@ -538,3 +538,27 @@ skip. That is not built today and is named as undone.
   were not touched today, as they were not on 2026-09-05, -06, -07 or -08.
 - The 490/491 discrepancy between sessions 22 and 23, and session 26's one-block
   Hawaiian discrepancy, stand unexplained. Today's catalogue returns 491.
+
+---
+
+## 13. Addendum — the check that was outstanding, finished
+
+Written after §1–§12 were committed at `6525c5f`, continuing the ledger rather
+than retouching it.
+
+**The harness passes over the six instances as committed.** 131 + 100 + 424 +
+76 + 95 + 320 = **1 146 states per width at 1440, 1100 and 820 px — 3 438 checks,
+all passing.** That is the figure §10a already carried, now established over the
+rebuilt files instead of over the ones that preceded them.
+
+**The `phase_main` tie is fixed** (`65cc2a4`), and what the fix moved was
+measured field by field rather than asserted: five of six instances rebuild
+byte-identical, and `nc75382936.html` differs in exactly two fields of its
+payload — `counts.phaseSrc` `nc/75382936` → `us/6000t7uu`, `counts.phaseMainStream`
+`0` → `1` — the file otherwise identical to the byte, 939 858 of them.
+
+**The load, re-measured on the final files**: 245 ms (`aka2026msxacu`), 165
+(`hv75018296`), 264 (`us6000tmta`), 182 (`us6000tm81`), 1 494 (`us6000tjl2`),
+5 007 (`nc75382936`), no page errors. All inside the run-to-run spread this
+container shows on one unchanged file, so §10a's paired comparison against
+iteration 15 stands.
