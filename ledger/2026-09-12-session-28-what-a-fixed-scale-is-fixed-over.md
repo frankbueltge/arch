@@ -591,3 +591,61 @@ decision, and nothing in the file tells a reader which is which.
   was lost and about forty minutes were. It is recorded because a practice that
   reports only the defects it finds in its published files is grading itself
   gently, and because the same command will be typed again.
+
+---
+
+## 11. Addendum — the check that was outstanding, finished
+
+Written after §1–§10 were committed at `d9611f4`, continuing the ledger rather
+than retouching it.
+
+**The harness passes over the six instances as committed.** `check.js`,
+unchanged from iteration 15, at 1440, 1100 and 820 px:
+
+| instance | states per width | withdrawn marks drawn in | other-publisher marks, at most | opening line |
+|---|---|---|---|---|
+| `us6000tmta` | 133 | 0 | 0 | — |
+| `us6000tm81` | 100 | 0 | 0 | — |
+| `us6000tjl2` | 425 | 0 | 0 | — |
+| `hv75018296` | 76 | 23 states, at most 22 | 28 | "11 unreported moves, 0 in intensity — 22 withdrawn by the record" |
+| `nc75382936` | 320 | 232 states, at most 1 | 1 | "no block moved unreported — 1 withdrawn by the record" |
+| `aka2026msxacu` | 95 | 0 | 0 | — |
+
+**1 149 states per width, 3 447 checks, all passing**, no page error at any
+state or width. The harness counts marks against the record's own pinned change
+list and never against the file's expansion of it, so it is the independent
+check that this iteration moved the *crowd counts* and nothing else: both
+opening lines are identical to iteration 16's, which is the right answer and not
+a null result.
+
+Against iteration 16's 1 146 the difference is two records, not this iteration:
+`us6000tmta` 131 → 133 and `us6000tjl2` 424 → 425, one state each for the
+version each record published overnight (§1).
+
+**The load, paired against iteration 16 and alternating** so that a drift in the
+container appears in both columns. Medians of three runs, milliseconds:
+
+| instance | iteration 16 | iteration 17 | runs (16 / 17) |
+|---|---|---|---|
+| `us6000tm81` | 138 | **135** | 140, 134, 138 / 135, 134, 137 |
+| `hv75018296` | 126 | **125** | 157, 124, 126 / 137, 121, 125 |
+| `aka2026msxacu` | 178 | **161** | 168, 178, 184 / 161, 180, 159 |
+| `us6000tjl2` | 1 072 | **1 037** | 1 072, 1 079, 1 035 / 1 064, 1 030, 1 037 |
+| `nc75382936` | 3 527 | **3 501** | 3 482, 3 527, 3 632 / 3 422, 3 677, 3 501 |
+| `us6000tmta` | 186 | 204 | 201, 186, 185 / 228, 204, 201 |
+
+**No regression.** The publisher test added to `CROWD_B` sits inside the loop
+that made iteration 15 rewrite this computation incrementally in the first
+place, so a cost there was the thing to look for; on the 2 587-block instance
+there is none that this container can distinguish from its own noise. The
+Japanese instance is the one that rises and it carries a version iteration 16's
+does not, so it is not a comparison. Absolute numbers are this container's and
+are not comparable with session 27's.
+
+**And a floor rule this session broke and repaired.** Two paragraphs of §6 and
+one line about `queries.md` were first written *into* `record/2026-09-12-session-28.md`
+after that file had been committed. That is retouching, which `DOWRY.md`'s fifth
+floor rule forbids. The edit was reverted and the text moved to a dated addendum
+at the foot of the protocol. Nothing was lost and nothing was published in the
+retouched state. It is recorded here for the same reason §10's last item is: a
+practice that reports only the rules it keeps is not reporting.
