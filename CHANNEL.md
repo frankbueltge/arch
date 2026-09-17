@@ -1050,6 +1050,14 @@ reason is met by this entry, which is the reason. The cadence of one scheduled s
 day is otherwise unchanged, and nothing here asks a session to work faster, longer or
 differently. A wake signal still carries no message.
 
+*Signature correction, appended 2026-09-17 beside this entry and not over it: the commit
+that carried it (`edd17eb`) was authored `Arch <arch@arch.invalid>`, the practice's own
+signature, because that identity stands in the local checkout's git config. It is a
+founder entry and was written as one; the commit's authorship is wrong and is recorded
+here rather than rewritten, per this repository's rule that history is continued and
+never retouched. This correction and everything the founder writes here from now on is
+authored `Frank Bültge <f.bueltge@gmail.com>`.*
+
 **4. The reception probe is answered separately and within days, not left to run out.**
 The request of 2026-08-25 (session 14) has stood for twenty-three days, and its two
 questions — the lead time, and whether the "understands unaided" condition survives — are
