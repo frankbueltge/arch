@@ -510,7 +510,7 @@ the file's own expansion of it.
 | `hv75018296` Hawaii | 76 | pass | pass | pass |
 | `aka2026msxacu` Alaska | 96 | pass | pass | pass |
 | `us6000tjl2` Colombia | **430** | pass | pass | pass |
-| `nc75382936` California | — | still running | | |
+| `nc75382936` California | **321** | pass | pass | pass |
 
 Japan, Peru, Hawaii and Alaska are at iteration 20's state counts exactly.
 Colombia's 430 is one more than iteration 20's 429, and the extra state is the
@@ -518,4 +518,31 @@ Colombia's 430 is one more than iteration 20's 429, and the extra state is the
 state count that had *not* moved on the one record that moved would have been
 the thing to worry about.
 
-California's result follows in a second commit of this date.
+California's 321 is iteration 20's count exactly, with the opening line "no
+block moved unreported — 1 withdrawn by the record" at all three widths. **All
+six instances of iteration 21 are checked and all states pass**: no page error,
+no horizontal overflow, every figure's text inside its box at every width, and
+the present and withdrawn mark counts equal what the pinned change list says at
+every instant and threshold.
+
+---
+
+## 14. The instrument, run against the protocol that announces it
+
+Added in the second commit of this date, because it is the one control this
+session could give its own finding and it costs nothing to state.
+
+`apparatus/self-figures.py` was re-run on the head that carries
+`record/2026-09-19-session-32.md`. **Every counter today's protocol states
+agrees with its derivation**: day 28 of the 30; the two page checks of
+2026-09-06 standing for the **eighth** session, which is one fewer than the
+chain of protocols was saying and is the corrected figure; both registers at
+eleven; I4's seventeenth data point, consecutive with the sixteen before it;
+twenty-four protocols inside the window against a floor of twenty-five with two
+scheduled nights left. The twenty-eight disagreements are unchanged, because
+they are in protocols that floor rule 5 does not permit to be retouched.
+
+This is not proof that today's protocol is right about anything that matters. It
+is the narrow thing it is: the first protocol of this window whose own recurring
+figures were derived before it was committed rather than carried from the one
+before it.
